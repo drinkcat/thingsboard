@@ -422,7 +422,7 @@
               "displayTypePrefix" : true
             },
             "enableDataExport" : true,
-            "displayTimewindow" : true,
+            "displayTimewindow" : false,
             "timewindow" : {
               "selectedTab" : 0,
               "realtime" : {
@@ -546,16 +546,16 @@
               "widgets" : {
                 "eb7b4767-6a21-10a8-42e4-356560d2aad1" : {
                   "sizeX" : 15,
-                  "sizeY" : 8,
+                  "sizeY" : 7,
                   "mobileHeight" : null,
                   "row" : 0,
                   "col" : 0
                 },
                 "05250d33-6469-cef0-c1c0-0491118f89ca" : {
                   "sizeX" : 7,
-                  "sizeY" : 8,
+                  "sizeY" : 7,
                   "row" : 0,
-                  "col" : 16
+                  "col" : 15
                 }
               },
               "gridSettings" : {
@@ -565,6 +565,34 @@
                 "margin" : 10,
                 "outerMargin" : true,
                 "backgroundSizeMode" : "100%"
+              },
+              "breakpoints" : {
+                "xs" : {
+                  "gridSettings" : {
+                    "layoutType" : "default",
+                    "backgroundColor" : "#eeeeee",
+                    "columns" : 24,
+                    "margin" : 10,
+                    "outerMargin" : true,
+                    "backgroundSizeMode" : "100%",
+                    "viewFormat" : "list"
+                  },
+                  "widgets" : {
+                    "eb7b4767-6a21-10a8-42e4-356560d2aad1" : {
+                      "sizeX" : 15,
+                      "sizeY" : 8,
+                      "mobileHeight" : null,
+                      "row" : 0,
+                      "col" : 0
+                    },
+                    "05250d33-6469-cef0-c1c0-0491118f89ca" : {
+                      "sizeX" : 7,
+                      "sizeY" : 8,
+                      "row" : 0,
+                      "col" : 15
+                    }
+                  }
+                }
               }
             }
           }
@@ -576,7 +604,7 @@
         "selectedTab" : 0,
         "realtime" : {
           "realtimeType" : 0,
-          "timewindowMs" : 3600000
+          "timewindowMs" : 43200000
         },
         "aggregation" : {
           "type" : "NONE",

@@ -575,21 +575,26 @@
                     "margin" : 10,
                     "outerMargin" : true,
                     "backgroundSizeMode" : "100%",
-                    "viewFormat" : "list"
+                    "viewFormat" : "grid",
+                    "minColumns" : 24,
+                    "autoFillHeight" : false,
+                    "rowHeight" : 70,
+                    "mobileAutoFillHeight" : false,
+                    "mobileRowHeight" : 70
                   },
                   "widgets" : {
                     "eb7b4767-6a21-10a8-42e4-356560d2aad1" : {
-                      "sizeX" : 15,
-                      "sizeY" : 8,
+                      "sizeX" : 24,
+                      "sizeY" : 13,
                       "mobileHeight" : null,
                       "row" : 0,
                       "col" : 0
                     },
                     "05250d33-6469-cef0-c1c0-0491118f89ca" : {
-                      "sizeX" : 7,
-                      "sizeY" : 8,
-                      "row" : 0,
-                      "col" : 15
+                      "sizeX" : 24,
+                      "sizeY" : 14,
+                      "row" : 13,
+                      "col" : 0
                     }
                   }
                 }

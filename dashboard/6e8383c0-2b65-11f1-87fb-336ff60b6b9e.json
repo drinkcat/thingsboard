@@ -483,11 +483,11 @@
             "color" : "rgba(0, 0, 0, 0.87)",
             "padding" : "8px",
             "settings" : {
-              "enableSearch" : true,
-              "enableSelectColumnDisplay" : true,
-              "enableStickyHeader" : true,
-              "enableStickyAction" : true,
-              "showCellActionsMenu" : true,
+              "enableSearch" : false,
+              "enableSelectColumnDisplay" : false,
+              "enableStickyHeader" : false,
+              "enableStickyAction" : false,
+              "showCellActionsMenu" : false,
               "reserveSpaceForHiddenAction" : "true",
               "showTimestamp" : true,
               "dateFormat" : {
@@ -497,7 +497,7 @@
                 "auto" : false
               },
               "timestampExportOption" : "onlyVisible",
-              "displayPagination" : true,
+              "displayPagination" : false,
               "useEntityLabel" : false,
               "defaultPageSize" : 10,
               "pageStepCount" : 3,
@@ -575,10 +575,10 @@
                     "margin" : 10,
                     "outerMargin" : true,
                     "backgroundSizeMode" : "100%",
-                    "viewFormat" : "grid",
+                    "viewFormat" : "list",
                     "minColumns" : 24,
                     "autoFillHeight" : false,
-                    "rowHeight" : 70,
+                    "rowHeight" : 12,
                     "mobileAutoFillHeight" : false,
                     "mobileRowHeight" : 70
                   },
@@ -623,7 +623,12 @@
         "showEntitiesSelect" : true,
         "showDashboardTimewindow" : true,
         "showDashboardExport" : true,
-        "toolbarAlwaysOpen" : true
+        "toolbarAlwaysOpen" : true,
+        "titleColor" : "rgba(0,0,0,0.870588)",
+        "showDashboardLogo" : false,
+        "hideToolbar" : false,
+        "showFilters" : true,
+        "showUpdateDashboardImage" : true
       }
     },
     "name" : "Zapping dashboard",

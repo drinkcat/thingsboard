@@ -490,7 +490,7 @@
             "titleColor" : null,
             "titleIcon" : null,
             "enableDataExport" : true,
-            "displayTimewindow" : true,
+            "displayTimewindow" : false,
             "timewindow" : {
               "selectedTab" : 0,
               "realtime" : {

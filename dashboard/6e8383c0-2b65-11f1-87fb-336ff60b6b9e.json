@@ -1152,11 +1152,11 @@
         "selectedTab" : 0,
         "realtime" : {
           "realtimeType" : 0,
-          "interval" : 1800000,
           "timewindowMs" : 86400000
         },
         "aggregation" : {
-          "type" : "SUM"
+          "type" : "NONE",
+          "limit" : 25000
         }
       },
       "settings" : {

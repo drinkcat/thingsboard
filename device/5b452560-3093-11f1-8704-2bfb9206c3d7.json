@@ -29,7 +29,7 @@
       "id" : "5b452560-3093-11f1-8704-2bfb9206c3d7"
     },
     "label" : "",
-    "name" : "ESP32-MINIZAP",
+    "name" : "ESP32C6-MINIZAP",
     "ownerId" : null,
     "softwareId" : null,
     "type" : "esp32"
@@ -41,7 +41,15 @@
   },
   "relations" : [ ],
   "attributes" : {
-    "SERVER_SCOPE" : [ ],
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1775354487520,
+      "longValue" : null,
+      "strValue" : null
+    } ],
     "SHARED_SCOPE" : [ ]
   },
   "calculatedFields" : [ ]

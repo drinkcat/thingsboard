@@ -29,7 +29,7 @@
       "id" : "5b452560-3093-11f1-8704-2bfb9206c3d7"
     },
     "label" : "esp32-zap",
-    "name" : "ESP32C6-MINIZAP",
+    "name" : "ESP32C6-ZAP-TEST",
     "ownerId" : null,
     "softwareId" : null,
     "type" : "esp32"

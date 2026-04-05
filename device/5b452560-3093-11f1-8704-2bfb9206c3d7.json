@@ -28,7 +28,7 @@
       "entityType" : "DEVICE",
       "id" : "5b452560-3093-11f1-8704-2bfb9206c3d7"
     },
-    "label" : "",
+    "label" : "esp32-zap",
     "name" : "ESP32C6-MINIZAP",
     "ownerId" : null,
     "softwareId" : null,
@@ -42,12 +42,28 @@
   "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
-      "booleanValue" : false,
+      "booleanValue" : true,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1775354487520,
+      "lastUpdateTs" : 1775357486592,
       "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1775357049252,
+      "longValue" : 1775357049251,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1775358311203,
+      "longValue" : 1775358309132,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]
